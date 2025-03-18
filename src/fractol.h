@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cagomez- <cagomez-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marcgar2 <marcgar2@student.42madrid.org    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 19:15:55 by cagomez-          #+#    #+#             */
-/*   Updated: 2025/02/21 18:18:19 by cagomez-         ###   ########.fr       */
+/*   Updated: 2025/03/18 07:58:20 by marcgar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include <stdio.h> //TODO debugging
-# include <stdlib.h> //malloc free
-# include <unistd.h> // write
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
 # include <math.h>
 # include <X11/X.h>
 # include <X11/keysym.h>
@@ -35,27 +35,25 @@ fractol julia <value_1> <value_2>\"\n"
 # define BLUE        0x0000FF  // RGB(0, 0, 255)
 
 // Psychedelic colors
-# define MAGENTA_BURST   0xFF00FF  // A vibrant magenta
-# define LIME_SHOCK      0xCCFF00  // A blinding lime
-# define NEON_ORANGE     0xFF6600  // A blazing neon orange
-# define PSYCHEDELIC_PURPLE 0x660066  // A deep purple
-# define AQUA_DREAM      0x33CCCC  // A bright turquoise
-# define HOT_PINK        0xFF66B2  // As the name suggests!
-# define ELECTRIC_BLUE   0x0066FF  // A radiant blue
-# define LAVA_RED        0xFF3300  // A bright, molten red
+# define MAGENTA_BURST   0xFF00FF
+# define LIME_SHOCK      0xCCFF00
+# define NEON_ORANGE     0xFF6600
+# define PSYCHEDELIC_PURPLE 0x660066
+# define AQUA_DREAM      0x33CCCC
+# define HOT_PINK        0xFF66B2
+# define ELECTRIC_BLUE   0x0066FF
+# define LAVA_RED        0xFF3300
 
 typedef struct s_complex
 {
-	//		real
 	double	x;
-	//		i
 	double	y;
 }				t_complex;
 
 typedef struct s_img
 {
-	void	*img_ptr; //pointer to image struct
-	char	*pixels_ptr; //points to the actual pixels
+	void	*img_ptr;
+	char	*pixels_ptr;
 	int		bpp;
 	int		endian;
 	int		line_len;
@@ -96,8 +94,6 @@ int			close_handler(t_fractal *fractal);
 int			mouse_handler(int button, int x, int y, t_fractal *fractal);
 int			julia_track(int x, int y, t_fractal *fractal);
 
-//int			ft_str_isdigit(char *str);
-//int			ft_isdigit(int c);
 void		check_julia(t_fractal *fractal, char **argv, int argc);
 
 #endif

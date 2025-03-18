@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   render.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cagomez- <cagomez-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marcgar2 <marcgar2@student.42madrid.org    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 19:16:17 by cagomez-          #+#    #+#             */
-/*   Updated: 2025/02/24 18:58:51 by cagomez-         ###   ########.fr       */
+/*   Updated: 2025/03/18 07:58:56 by marcgar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,18 +58,6 @@ static void	handle_pixel(int x, int y, t_fractal *fractal)
 	}
 	my_pixel_put(x, y, &fractal->img, PSYCHEDELIC_PURPLE);
 }
-/*
- * Actual 🍖
- *
- * 				
- *		   	____800_______
- *			|			 |
- *			|			 |
- *		800	|			 |
- *			|			 |
- *			|			 |
- *			|____________|
-*/
 
 void	fractal_render(t_fractal *fractal)
 {

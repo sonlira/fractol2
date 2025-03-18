@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cagomez- <cagomez-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marcgar2 <marcgar2@student.42madrid.org    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 19:15:59 by cagomez-          #+#    #+#             */
-/*   Updated: 2025/02/20 16:40:30 by cagomez-         ###   ########.fr       */
+/*   Updated: 2025/03/18 07:58:29 by marcgar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * If MALLOC goes bad (improbable)
-*/
+
 static void	malloc_error(void)
 {
 	perror("Problems with malloc");
