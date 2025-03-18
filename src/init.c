@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marcgar2 <marcgar2@student.42madrid.org    +#+  +:+       +#+        */
+/*   By: marcgar2 <marcgar2@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/10 19:15:59 by cagomez-          #+#    #+#             */
-/*   Updated: 2025/03/18 07:58:29 by marcgar2         ###   ########.fr       */
+/*   Created: 2025/03/18 22:22:29 by marcgar2          #+#    #+#             */
+/*   Updated: 2025/03/18 22:22:29 by marcgar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "fractol.h"
 #include <stdio.h>

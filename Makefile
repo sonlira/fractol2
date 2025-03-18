@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: marcgar2 <marcgar2@student.42madrid.org    +#+  +:+       +#+         #
+#    By: marcgar2 <marcgar2@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/02/17 19:58:37 by cagomez-          #+#    #+#              #
-#    Updated: 2025/03/18 07:52:49 by marcgar2         ###   ########.fr        #
+#    Created: 2025/03/18 22:23:23 by marcgar2          #+#    #+#              #
+#    Updated: 2025/03/18 22:23:23 by marcgar2         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
